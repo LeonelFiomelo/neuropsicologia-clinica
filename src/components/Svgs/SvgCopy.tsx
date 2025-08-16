@@ -1,0 +1,43 @@
+interface Props {
+    size?: number;
+    color?: string;
+}
+
+export default function SvgCopy({size = 32, color = "#000"}: Props) {
+    return (
+        <svg 
+            width={size} 
+            height={size} 
+            viewBox="0 0 24 24" 
+            fill="none" 
+            xmlns="http://www.w3.org/2000/svg" 
+            stroke={color}
+            className={`stroke-black fill-black transition-all hover:stroke-green-500 hover:fill-green-500`}
+        >
+
+            <g 
+                id="SVGRepo_bgCarrier" 
+                strokeWidth="0"
+            />
+
+            <g 
+                id="SVGRepo_tracerCarrier" 
+                strokeLinecap="round" 
+                strokeLinejoin="round"
+            />
+
+            <g 
+                id="SVGRepo_iconCarrier"
+            > 
+                <path 
+                    fillRule="evenodd" 
+                    clipRule="evenodd" 
+                    d="M19.5 16.5L19.5 4.5L18.75 3.75H9L8.25 4.5L8.25 7.5L5.25 7.5L4.5 8.25V20.25L5.25 21H15L15.75 20.25V17.25H18.75L19.5 16.5ZM15.75 15.75L15.75 8.25L15 7.5L9.75 7.5V5.25L18 5.25V15.75H15.75ZM6 9L14.25 9L14.25 19.5L6 19.5L6 9Z" 
+                    fill={color}
+                    className="fill-inherit"
+                /> 
+            </g>
+
+        </svg>
+    )
+}

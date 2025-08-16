@@ -1,0 +1,10 @@
+export { default as ImageNeuronas } from './neuronas.jpeg';
+export { default as ImageProfileAldo } from './profileAldoFerreres.jpg';
+export { default as ImageProfileLaura } from './profileLauraMargulis.jpg';
+export { default as ImageProfileSamanta } from './profileSamantaLeiva.jpg';
+export { default as ImageProfileCecilia } from './profileCeciliaPalermo.jpeg';
+export { default as ImageUbaLogo } from './ubaLogo.png';
+export { default as ImagePsicologiaLogo } from './psicologiaLogo.png';
+export { default as ImageNeuropsicologiaLogo } from './neuropsicologiaLogo.png';
+export { default as ImageReview } from './review.jpg';
+export { default as ImageModality } from './modality.jpg';
