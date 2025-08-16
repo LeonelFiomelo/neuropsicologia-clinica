@@ -14,12 +14,19 @@ El objetivo es ofrecer una plataforma clara y moderna donde se presente la infor
 
 ## 📂 Estructura del proyecto
 ├── public/ # Recursos estáticos (imágenes, íconos, etc.)
+
 ├── src/ # Código fuente (componentes, páginas, estilos)
+
 ├── .gitignore # Archivos/carpetas ignoradas por Git
+
 ├── next.config.mjs # Configuración de Next.js
+
 ├── package.json # Dependencias y scripts
+
 ├── tailwind.config.ts # Configuración de Tailwind
+
 ├── tsconfig.json # Configuración de TypeScript
+
 └── README.md # Documentación del proyecto
 
 ---
